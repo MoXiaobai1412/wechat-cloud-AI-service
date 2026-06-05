@@ -1,0 +1,21 @@
+{
+  "llm": {
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-v4-flash",
+    "api_key": "",
+    "temperature": 0.7
+  },
+  "embedding": {
+    "base_url": "https://api.siliconflow.cn/v1",
+    "model": "Qwen/Qwen3-Embedding-4B",
+    "api_key": ""
+  },
+  "database": {
+    "database": "chat",
+    "user": "",
+    "password": "",
+    "host": "localhost",
+    "port": 3306
+  },
+  "port": 8000
+}
